@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="174dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:scaleType="centerInside"
+        tools:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:id="@+id/recipe_list_text_layout"
+        android:layout_width="227dp"
+        android:layout_height="169dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_toRightOf="@id/imageView">
+
+        <TextView
+            android:id="@+id/shop_list_name"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="36sp"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/shop_list_price"
+            android:layout_width="208dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/shop_list_name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="8dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="24sp"
+            tools:text="Price" />
+
+        <TextView
+            android:id="@+id/shop_list_stock"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="95dp"
+            android:layout_marginBottom="44dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button_buy"
+            android:layout_width="202dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="Buy Now"
+            android:text="Buy Now" />
+
+    </RelativeLayout>
+</RelativeLayout>

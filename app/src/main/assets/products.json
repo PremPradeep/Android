@@ -1,0 +1,57 @@
+[{
+  "id": 111,
+  "name": "Badge",
+  "price": "999",
+  "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/badge.png",
+  "stock": "10"
+},
+  {
+    "id": 112,
+    "name": "Brush",
+    "price": "699",
+    "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/brush.png",
+    "stock": "7"
+  },
+  {
+    "id": 113,
+    "name": "Wire",
+    "price": "700",
+    "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/wire.png",
+    "stock": "4"
+  },
+  {
+    "id": 114,
+    "name": "Coolant",
+    "price": "999",
+    "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/coolant.png",
+    "stock": "0"
+  },
+  {
+    "id": 115,
+    "name": "Spanner",
+    "price": "999",
+    "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/spanner.png",
+    "stock": "0"
+  },
+  {
+    "id": 116,
+    "name": "Pod Filter",
+    "price": "500",
+    "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/pod.png",
+    "stock": "-10"
+  },
+  {
+    "id": 117,
+    "name": "Oil",
+    "price": "1299",
+    "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/oil.png",
+    "stock": "1"
+  },
+  {
+    "id": 118,
+    "name": "Spark Plugs",
+    "price": "601",
+    "image": "https://elasticbeanstalk-ap-southeast-2-657337497260.s3-ap-southeast-2.amazonaws.com/static/oscar/sample/sparkplugs.png",
+    "stock": "6"
+  }
+]
